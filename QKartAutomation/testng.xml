@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QKartAutomationSuite" parallel="tests" thread-count="3">
+    <test name="AllTests">
+        <classes>
+            <class name="tests.Class1_UIValidation"/>
+            <class name="tests.Class2_ImageLinkTest"/>
+            <class name="tests.Class3_VerifyText"/>
+            <class name="tests.Class4_LoginTest"/>
+            <class name="tests.Class5_BugScenario"/>
+        </classes>
+    </test>
+</suite>
