@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" verbose="1">
+    <test name="FactorialTests">
+        <classes>
+            <class name="factorialtest.CClass1"/>
+            <class name="factorialtest.CClass2"/>
+            <class name="factorialtest.CClass3"/>
+            <class name="factorialtest.CClass4"/>
+            <class name="factorialtest.CClass5"/>
+        </classes>
+    </test>
+</suite>
